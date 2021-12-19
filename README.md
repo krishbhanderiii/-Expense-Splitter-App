@@ -1,1 +1,1 @@
-# -Expense-Splitter-App
+# eSplitt:Group Expenses split & track
