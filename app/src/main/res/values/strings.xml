@@ -1,0 +1,66 @@
+<resources>
+    -
+    <string name="action_settings">Settings</string>
+    <string name="app_name">eSplitt</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="BALANCED">SETTLE UP</string>
+    <string name="previous">Previous</string>
+    <string name="add">+Add</string>
+    <string name="NEXT">TODO</string>
+    <string name="sure_text">ARE YOU SURE?</string>
+    <string name="no_text">NO</string>
+    <string name="yes_text">YES</string>
+    <string name="add_person">Add Person</string>
+    <string name="addperson">ADD</string>
+    <string name="enter_name">enter name</string>
+    <string name="update_text">UPDATE</string>
+    <string name="edit_NAME">UPDATE</string>
+    <string name="add_expences">Add Expenses</string>
+    <string name="add_expence">Add Expense</string>
+    <string name="ex_food">Ex.Food</string>
+    <string name="enter_rupee">Enter Money</string>
+    <string name="person_who_pay_the_costs">Payer</string>
+    <string name="title">Title</string>
+    <string name="next_STEP">NEXT ➤</string>
+    <string name="EDIT">EDIT</string>
+    <string name="DELETE">DELETE</string>
+    <string name="expence_splitter">Expence Splitter</string>
+    <string name="Add_Members">Add Members</string>
+    <string name="statment">invoice</string>
+    <string name="save">SAVE</string>
+    <string name="next">NEXT</string>
+    <string name="back">BACK</string>
+    <string name="share">SHARE</string>
+    <string name="craet_new_group">CRAET NEW GROUP</string>
+    <string name="let_s_go">LET\'S GO</string>
+    <string name="are_you_sure_to_exit">Are You Sure To Exit?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="payer_name">payer name</string>
+    <string name="_5000">5000</string>
+    <string name="date">date</string>
+    <string name="splitter_will_make_your_soldieries_so_smooth_all_you_have_to_do_is_just_enter_name_and_amount_only">eSplitt will make your soldieries so smooth , All you have to do is just enter name and amount only.</string>
+    <string name="all_you_have_to_do_is_just_add_the_value_of_expense_here_and_click_the_next_button_you_can_also_delete_the_record_as_per_your_comfort">All you have to do is just add the value of expense here and click the NEXT button , you can also delete the record as per your comfort..!!</string>
+    <string name="add_persons">ADD PERSONS</string>
+    <string name="long_press_on_the_profile_if_you_want_to_modify_the_record_and_you_can_also_delete_it_by_swiping_right">Long press on the profile if you want to modify the record and you can also delete it by swiping right.</string>
+    <string name="esplitt">eSplitt</string>
+    <string name="dollar">   $</string>
+    <string name="EUR">   €</string>
+    <string name="pound">   £</string>
+    <string name="ruppe">   ₹</string>
+<!--    <string name="rate_app_title">let us know how we are doing!</string>-->
+<!--    <string name="rate_app_message">we are always trying to improve what we do and your feedback is invaluable!</string>-->
+<!--    <string name="rate_btn_pos">Rate Now</string>-->
+<!--    <string name="rate_btn_neg">Remind me later</string>-->
+<!--    <string name="rate_btn_nut">No, Thanks</string>-->
+
+    <string-array name="currency">
+        <item>Currency</item>
+        <item>@string/dollar</item>
+        <item>@string/EUR</item>
+        <item>@string/pound</item>
+        <item>@string/ruppe</item>
+    </string-array>
+
+</resources>
