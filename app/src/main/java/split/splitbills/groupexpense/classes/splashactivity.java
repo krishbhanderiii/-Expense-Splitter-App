@@ -30,6 +30,7 @@ public class splashactivity extends AppCompatActivity {
         a.addCategory(Intent.CATEGORY_HOME);
         a.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(a);
+        overridePendingTransition(R.anim.fadein, R.anim.fadeout);
     }
 
     @Override
@@ -58,17 +59,21 @@ public class splashactivity extends AppCompatActivity {
         if (!members.isEmpty()) {
             startActivity(new Intent(splashactivity.this,
                     MainActivity.class));
+            overridePendingTransition(R.anim.fadein, R.anim.fadeout);
+
         }
         if (!MODELS.isEmpty()) {
             startActivity(new Intent(splashactivity.this,
                     CreatExpence.class));
+            overridePendingTransition(R.anim.fadein, R.anim.fadeout);
+
         }
         Button_start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(splashactivity.this,
                         currencyselector.class));
-
+                overridePendingTransition(R.anim.fadein, R.anim.fadeout);
             }
         });
 

@@ -218,7 +218,6 @@ public class Expence_Splitter extends AppCompatActivity {
                             String g = (String) members.get(j).getName().trim();
                             if (g.equals(L)) {
                                 Spliteer[i][j] = Spliteer[i][j] + ((MODELS.get(k).getMoney()) / (MODELS.get(k).GetPERSONS().size()));
-                                Log.d("temp1", Spliteer[i][j] + " ");
                             }
                         }
 
@@ -247,12 +246,9 @@ public class Expence_Splitter extends AppCompatActivity {
 
                 if (FINAL[i][j] < 0) {
                     debt[i] = debt[i] + FINAL[i][j];
-
                 } else {
                     dues[i] = dues[i] + FINAL[i][j];
                 }
-
-
             }
             debt[i] = debt[i] * (-1);
 

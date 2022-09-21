@@ -417,6 +417,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         editor.apply();
                     }
                     startActivity(new Intent(this, CreatExpence.class));
+                    overridePendingTransition(R.anim.fadein, R.anim.fadeout);
+
                 } else {
                     Snackbar snackbar = Snackbar
                             .make(v, "You must add at least two persons", Snackbar.LENGTH_LONG);

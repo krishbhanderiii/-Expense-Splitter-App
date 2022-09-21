@@ -110,6 +110,8 @@ public class currencyselector extends AppCompatActivity {
                     editor.putString("grpname", GRPNAME.getText().toString().toUpperCase());
                     editor.apply();
                     startActivity(new Intent(currencyselector.this, MainActivity.class));
+                    overridePendingTransition(R.anim.fadein, R.anim.fadeout);
+
 
                 }
             }

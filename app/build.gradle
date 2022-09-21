@@ -9,7 +9,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "split.splitbills.groupexpense"-
+        applicationId "split.splitbills.groupexpense"
         minSdkVersion 18
         targetSdkVersion 30
         versionCode 4

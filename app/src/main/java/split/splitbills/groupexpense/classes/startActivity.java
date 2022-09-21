@@ -28,9 +28,10 @@ public class startActivity extends AppCompatActivity {
 
                 if (prefs.getInt("idName", 0) == 100) {
                     startActivity(new Intent(startActivity.this, splashactivity.class));
+                    overridePendingTransition(R.anim.fadein, R.anim.fadeout);
                 } else {
                     startActivity(new Intent(startActivity.this, guide.class));
-
+                    overridePendingTransition(R.anim.fadein, R.anim.fadeout);
                 }
             }
         }, 500);
