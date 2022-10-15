@@ -49,7 +49,8 @@
     <string name="EUR">   €</string>
     <string name="pound">   £</string>
     <string name="ruppe">   ₹</string>
-<!--    <string name="rate_app_title">let us know how we are doing!</string>-->
+    <string name="save_your_time">SAVE YOUR TIME!</string>
+    <!--    <string name="rate_app_title">let us know how we are doing!</string>-->
 <!--    <string name="rate_app_message">we are always trying to improve what we do and your feedback is invaluable!</string>-->
 <!--    <string name="rate_btn_pos">Rate Now</string>-->
 <!--    <string name="rate_btn_neg">Remind me later</string>-->
